@@ -19,3 +19,5 @@ async def main(message):
         return top_intent['name']
     else:
         return None
+if __name__ == '__main__':
+    intent_name = asyncio.run(main("text goes here"))
